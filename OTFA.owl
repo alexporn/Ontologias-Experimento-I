@@ -1,0 +1,1342 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-19"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-19">
+    <Prefix name="" IRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-19#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#AlexSmith"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LandoverMD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PittsburghPA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaltimoreRavens"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndianápolisIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TyrodTaylor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinneapolisMN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JoshMcCown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KirkCousins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TampaFL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#a"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JacksonvilleFL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FoxboroughMA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temTime"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#North"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CharlotteNC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OaklandRaiders"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BenRoethlisberger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetroitLions"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mitchell_Trubisky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArizonaCardinals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MarcusMariota"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClevelandOH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlaineGabbert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewYorkGiants"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeattleWA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewYorkJets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PittsburghSteelers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OaklandCA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhilipRivers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuffaloBills"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DrewBrees"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LosAngelesRams"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CincinnatiOH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MattRyan"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ehDaCidadeDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#East"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BlakeBortles"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EliManning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FiladélfiaPA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChicagoIL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KansasCityMO"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SanFrancisco49ers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RyanFitzpatrick"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiamiFL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DakPrescott"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoustonTexans"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SeattleSeahawks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Norte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NashvilleTS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MatthewStafford"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#South"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MinnesotaVikings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JacobyBrissett"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CamNewton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NovaIorqueNY"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CarolinaPanthers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DetroitMI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtlantaGA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TennesseeTitans"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RussellWilson"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SanFranciscoCA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CincinnatiBengals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DerekCarr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AndyDalton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClevelandBrowns"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EastRutherfordNJ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CarsonWentz"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C.J.Beathard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JaredGoff"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TomSavage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TampaBayBuccaneers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PhiladelphiaEagles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenBayPackers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewOrleansSaints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JacksonvilleJaguars"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DenverBroncos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oeste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BaltimoreMD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DeShoneKizer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PaxtonLynch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WashingtonRedskins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GreenBayWI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Times"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewEnglandPatriots"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NFL"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DenverCO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BrettHundley"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IndianapolisColts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NewOrleansLA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LosAngelesCA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LosAngelesChargers"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KansasCityChiefs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CaseKeenum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TomBrady"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#West"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AtlantaFalcons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ChicagoBears"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MiamiDolphins"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArlingtonTX"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GlendaleAZ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NFC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HoustonTX"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MattMoore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DallasCowboys"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JoeFlacco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BuffaloNY"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AFC"/>
+        <Class IRI="#NFL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArizonaCardinals"/>
+        <Class IRI="#West"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArizonaCardinals"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#GlendaleAZ"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArlingtonTX"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArlingtonTX"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#DallasCowboys"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtlantaFalcons"/>
+        <Class IRI="#South"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtlantaFalcons"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#AtlantaGA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtlantaGA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AtlantaGA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#AtlantaFalcons"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaltimoreMD"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaltimoreMD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#BaltimoreRavens"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaltimoreRavens"/>
+        <Class IRI="#Norte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BaltimoreRavens"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#BaltimoreMD"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuffaloBills"/>
+        <Class IRI="#Leste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuffaloBills"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#BuffaloNY"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuffaloNY"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BuffaloNY"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#BuffaloBills"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarolinaPanthers"/>
+        <Class IRI="#South"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CarolinaPanthers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#CharlotteNC"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CharlotteNC"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CharlotteNC"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#CarolinaPanthers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChicagoBears"/>
+        <Class IRI="#North"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChicagoBears"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#ChicagoIL"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChicagoIL"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ChicagoIL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#ChicagoBears"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CincinnatiBengals"/>
+        <Class IRI="#Norte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CincinnatiBengals"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#CincinnatiOH"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CincinnatiOH"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CincinnatiOH"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#CincinnatiBengals"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClevelandBrowns"/>
+        <Class IRI="#Norte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClevelandBrowns"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#ClevelandOH"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClevelandOH"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClevelandOH"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#ClevelandBrowns"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DallasCowboys"/>
+        <Class IRI="#East"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DallasCowboys"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#ArlingtonTX"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DenverBroncos"/>
+        <Class IRI="#Oeste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DenverBroncos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#DenverCO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DenverCO"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DenverCO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#DenverBroncos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetroitLions"/>
+        <Class IRI="#North"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetroitLions"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#DetroitMI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetroitMI"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DetroitMI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#DetroitLions"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#East"/>
+        <Class IRI="#NFC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EastRutherfordNJ"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EastRutherfordNJ"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#NewYorkJets"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FiladélfiaPA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FiladélfiaPA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#PhiladelphiaEagles"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoxboroughMA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FoxboroughMA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#NewEnglandPatriots"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlendaleAZ"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GlendaleAZ"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#ArizonaCardinals"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenBayPackers"/>
+        <Class IRI="#North"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenBayPackers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#GreenBayWI"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenBayWI"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GreenBayWI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#GreenBayPackers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoustonTX"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoustonTX"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#HoustonTexans"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoustonTexans"/>
+        <Class IRI="#Sul"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HoustonTexans"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#HoustonTX"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndianapolisColts"/>
+        <Class IRI="#Sul"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndianapolisColts"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#IndianápolisIN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndianápolisIN"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IndianápolisIN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#IndianapolisColts"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JacksonvilleFL"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JacksonvilleFL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#JacksonvilleJaguars"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JacksonvilleJaguars"/>
+        <Class IRI="#Sul"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JacksonvilleJaguars"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#JacksonvilleFL"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KansasCityChiefs"/>
+        <Class IRI="#Oeste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KansasCityChiefs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#KansasCityMO"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KansasCityMO"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KansasCityMO"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#KansasCityChiefs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LandoverMD"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LandoverMD"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#WashingtonRedskins"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leste"/>
+        <Class IRI="#AFC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LosAngelesCA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LosAngelesCA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#LosAngelesChargers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LosAngelesCA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#LosAngelesRams"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LosAngelesChargers"/>
+        <Class IRI="#Oeste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LosAngelesChargers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#LosAngelesCA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LosAngelesRams"/>
+        <Class IRI="#West"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LosAngelesRams"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#LosAngelesCA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiamiDolphins"/>
+        <Class IRI="#Leste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiamiDolphins"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#MiamiFL"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiamiFL"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MiamiFL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#MiamiDolphins"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinneapolisMN"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinneapolisMN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#MinnesotaVikings"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinnesotaVikings"/>
+        <Class IRI="#North"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MinnesotaVikings"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#MinneapolisMN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NFC"/>
+        <Class IRI="#NFL"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NFL"/>
+        <Class IRI="#Times"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NashvilleTS"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NashvilleTS"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#TennesseeTitans"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewEnglandPatriots"/>
+        <Class IRI="#Leste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewEnglandPatriots"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#FoxboroughMA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewOrleansLA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewOrleansLA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#NewOrleansSaints"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewOrleansSaints"/>
+        <Class IRI="#South"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewOrleansSaints"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#NewOrleansLA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewYorkGiants"/>
+        <Class IRI="#East"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewYorkGiants"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#NovaIorqueNY"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewYorkJets"/>
+        <Class IRI="#Leste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NewYorkJets"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#EastRutherfordNJ"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Norte"/>
+        <Class IRI="#AFC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#North"/>
+        <Class IRI="#NFC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NovaIorqueNY"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NovaIorqueNY"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#NewYorkGiants"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OaklandCA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OaklandCA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#OaklandRaiders"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OaklandRaiders"/>
+        <Class IRI="#Oeste"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OaklandRaiders"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#OaklandCA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oeste"/>
+        <Class IRI="#AFC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhiladelphiaEagles"/>
+        <Class IRI="#East"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PhiladelphiaEagles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#FiladélfiaPA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PittsburghPA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PittsburghPA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#PittsburghSteelers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PittsburghSteelers"/>
+        <Class IRI="#Norte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PittsburghSteelers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#PittsburghPA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SanFrancisco49ers"/>
+        <Class IRI="#West"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SanFrancisco49ers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#SanFranciscoCA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SanFranciscoCA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SanFranciscoCA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#SanFrancisco49ers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeattleSeahawks"/>
+        <Class IRI="#West"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeattleSeahawks"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#SeattleWA"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeattleWA"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SeattleWA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#SeattleSeahawks"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#South"/>
+        <Class IRI="#NFC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sul"/>
+        <Class IRI="#AFC"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TampaBayBuccaneers"/>
+        <Class IRI="#South"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TampaBayBuccaneers"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#TampaFL"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TampaFL"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TampaFL"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temTime"/>
+            <Class IRI="#TampaBayBuccaneers"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TennesseeTitans"/>
+        <Class IRI="#Sul"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TennesseeTitans"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#NashvilleTS"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WashingtonRedskins"/>
+        <Class IRI="#East"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#WashingtonRedskins"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ehDaCidadeDe"/>
+            <Class IRI="#LandoverMD"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#West"/>
+        <Class IRI="#NFC"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#AFC"/>
+        <Class IRI="#NFC"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ArizonaCardinals"/>
+        <Class IRI="#LosAngelesRams"/>
+        <Class IRI="#SanFrancisco49ers"/>
+        <Class IRI="#SeattleSeahawks"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ArlingtonTX"/>
+        <Class IRI="#AtlantaGA"/>
+        <Class IRI="#BaltimoreMD"/>
+        <Class IRI="#BuffaloNY"/>
+        <Class IRI="#CharlotteNC"/>
+        <Class IRI="#ChicagoIL"/>
+        <Class IRI="#CincinnatiOH"/>
+        <Class IRI="#ClevelandOH"/>
+        <Class IRI="#DenverCO"/>
+        <Class IRI="#DetroitMI"/>
+        <Class IRI="#EastRutherfordNJ"/>
+        <Class IRI="#FiladélfiaPA"/>
+        <Class IRI="#FoxboroughMA"/>
+        <Class IRI="#GlendaleAZ"/>
+        <Class IRI="#GreenBayWI"/>
+        <Class IRI="#HoustonTX"/>
+        <Class IRI="#IndianápolisIN"/>
+        <Class IRI="#JacksonvilleFL"/>
+        <Class IRI="#KansasCityMO"/>
+        <Class IRI="#LandoverMD"/>
+        <Class IRI="#LosAngelesCA"/>
+        <Class IRI="#MiamiFL"/>
+        <Class IRI="#MinneapolisMN"/>
+        <Class IRI="#NashvilleTS"/>
+        <Class IRI="#NewOrleansLA"/>
+        <Class IRI="#NovaIorqueNY"/>
+        <Class IRI="#OaklandCA"/>
+        <Class IRI="#PittsburghPA"/>
+        <Class IRI="#SanFranciscoCA"/>
+        <Class IRI="#SeattleWA"/>
+        <Class IRI="#TampaFL"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#AtlantaFalcons"/>
+        <Class IRI="#CarolinaPanthers"/>
+        <Class IRI="#NewOrleansSaints"/>
+        <Class IRI="#TampaBayBuccaneers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BaltimoreRavens"/>
+        <Class IRI="#CincinnatiBengals"/>
+        <Class IRI="#ClevelandBrowns"/>
+        <Class IRI="#PittsburghSteelers"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#BuffaloBills"/>
+        <Class IRI="#MiamiDolphins"/>
+        <Class IRI="#NewEnglandPatriots"/>
+        <Class IRI="#NewYorkJets"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#ChicagoBears"/>
+        <Class IRI="#DetroitLions"/>
+        <Class IRI="#GreenBayPackers"/>
+        <Class IRI="#MinnesotaVikings"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DallasCowboys"/>
+        <Class IRI="#NewYorkGiants"/>
+        <Class IRI="#PhiladelphiaEagles"/>
+        <Class IRI="#WashingtonRedskins"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DenverBroncos"/>
+        <Class IRI="#KansasCityChiefs"/>
+        <Class IRI="#LosAngelesChargers"/>
+        <Class IRI="#OaklandRaiders"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#East"/>
+        <Class IRI="#North"/>
+        <Class IRI="#South"/>
+        <Class IRI="#West"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HoustonTexans"/>
+        <Class IRI="#IndianapolisColts"/>
+        <Class IRI="#JacksonvilleJaguars"/>
+        <Class IRI="#TennesseeTitans"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Leste"/>
+        <Class IRI="#Norte"/>
+        <Class IRI="#Oeste"/>
+        <Class IRI="#Sul"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#KansasCityChiefs"/>
+        <NamedIndividual IRI="#AlexSmith"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CincinnatiBengals"/>
+        <NamedIndividual IRI="#AndyDalton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PittsburghSteelers"/>
+        <NamedIndividual IRI="#BenRoethlisberger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ArizonaCardinals"/>
+        <NamedIndividual IRI="#BlaineGabbert"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#JacksonvilleJaguars"/>
+        <NamedIndividual IRI="#BlakeBortles"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GreenBayPackers"/>
+        <NamedIndividual IRI="#BrettHundley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SanFrancisco49ers"/>
+        <NamedIndividual IRI="#C.J.Beathard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CarolinaPanthers"/>
+        <NamedIndividual IRI="#CamNewton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PhiladelphiaEagles"/>
+        <NamedIndividual IRI="#CarsonWentz"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MinnesotaVikings"/>
+        <NamedIndividual IRI="#CaseKeenum"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DallasCowboys"/>
+        <NamedIndividual IRI="#DakPrescott"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ClevelandBrowns"/>
+        <NamedIndividual IRI="#DeShoneKizer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OaklandRaiders"/>
+        <NamedIndividual IRI="#DerekCarr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NewOrleansSaints"/>
+        <NamedIndividual IRI="#DrewBrees"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NewYorkGiants"/>
+        <NamedIndividual IRI="#EliManning"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#IndianapolisColts"/>
+        <NamedIndividual IRI="#JacobyBrissett"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LosAngelesRams"/>
+        <NamedIndividual IRI="#JaredGoff"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BaltimoreRavens"/>
+        <NamedIndividual IRI="#JoeFlacco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NewYorkJets"/>
+        <NamedIndividual IRI="#JoshMcCown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#WashingtonRedskins"/>
+        <NamedIndividual IRI="#KirkCousins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TennesseeTitans"/>
+        <NamedIndividual IRI="#MarcusMariota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MiamiDolphins"/>
+        <NamedIndividual IRI="#MattMoore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AtlantaFalcons"/>
+        <NamedIndividual IRI="#MattRyan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DetroitLions"/>
+        <NamedIndividual IRI="#MatthewStafford"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ChicagoBears"/>
+        <NamedIndividual IRI="#Mitchell_Trubisky"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DenverBroncos"/>
+        <NamedIndividual IRI="#PaxtonLynch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LosAngelesChargers"/>
+        <NamedIndividual IRI="#PhilipRivers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SeattleSeahawks"/>
+        <NamedIndividual IRI="#RussellWilson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TampaBayBuccaneers"/>
+        <NamedIndividual IRI="#RyanFitzpatrick"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NewEnglandPatriots"/>
+        <NamedIndividual IRI="#TomBrady"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HoustonTexans"/>
+        <NamedIndividual IRI="#TomSavage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BuffaloBills"/>
+        <NamedIndividual IRI="#TyrodTaylor"/>
+    </ClassAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ehDaCidadeDe"/>
+        <ObjectProperty IRI="#temTime"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ehDaCidadeDe"/>
+        <Class IRI="#Times"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temTime"/>
+        <Class IRI="#Cidades"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ehDaCidadeDe"/>
+        <Class IRI="#Cidades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temTime"/>
+        <Class IRI="#Times"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
