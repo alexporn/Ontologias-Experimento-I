@@ -1,0 +1,776 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-21"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-21">
+    <Prefix name="" IRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-21"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#França"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Japao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tonga"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alemanha"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mongolia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America_do_Sul"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Itália"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Africa_do_Sul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oceania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nigeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brasil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nova_Zelandia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Africa_do_Sul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mongolia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nigeria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mexico"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PertenceA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#França"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alemanha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estados_Unidos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tonga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Itália"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brasil"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paises"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Japao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Argelia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nova_Zelandia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Estados_Unidos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argelia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Australia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America_do_Norte"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Africa"/>
+        <ObjectUnionOf>
+            <Class IRI="#Africa_do_Sul"/>
+            <Class IRI="#Argelia"/>
+            <Class IRI="#Nigeria"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#America_do_Norte"/>
+        <ObjectUnionOf>
+            <Class IRI="#Canada"/>
+            <Class IRI="#Estados_Unidos"/>
+            <Class IRI="#Mexico"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#America_do_Sul"/>
+        <ObjectUnionOf>
+            <Class IRI="#Argentina"/>
+            <Class IRI="#Brasil"/>
+            <Class IRI="#Chile"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Asia"/>
+        <ObjectUnionOf>
+            <Class IRI="#China"/>
+            <Class IRI="#Japao"/>
+            <Class IRI="#Mongolia"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Europa"/>
+        <ObjectUnionOf>
+            <Class IRI="#Alemanha"/>
+            <Class IRI="#França"/>
+            <Class IRI="#Itália"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Oceania"/>
+        <ObjectUnionOf>
+            <Class IRI="#Australia"/>
+            <Class IRI="#Nova_Zelandia"/>
+            <Class IRI="#Tonga"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Africa_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Argelia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Nigeria"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa_do_Sul"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Africa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alemanha"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alemanha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Europa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Norte"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Norte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Estados_Unidos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Norte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Mexico"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Norte"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Canada"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Sul"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Argentina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Brasil"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Chile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argelia"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argelia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Africa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#America_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#China"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Japao"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Mongolia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australia"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Australia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Oceania"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#America_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#America_do_Norte"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chile"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#America_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Asia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estados_Unidos"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estados_Unidos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#America_do_Norte"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Alemanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#França"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Itália"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#França"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#França"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Europa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Itália"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Itália"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Europa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japao"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japao"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Asia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#America_do_Norte"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mongolia"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mongolia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Asia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nigeria"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nigeria"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Africa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nova_Zelandia"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nova_Zelandia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Oceania"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Australia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Nova_Zelandia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Tonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tonga"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tonga"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Oceania"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Africa_do_Sul"/>
+        <ObjectUnionOf>
+            <Class IRI="#Argelia"/>
+            <Class IRI="#Nigeria"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Alemanha"/>
+        <ObjectUnionOf>
+            <Class IRI="#França"/>
+            <Class IRI="#Itália"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Argelia"/>
+        <ObjectUnionOf>
+            <Class IRI="#Africa_do_Sul"/>
+            <Class IRI="#Nigeria"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Argentina"/>
+        <ObjectUnionOf>
+            <Class IRI="#Brasil"/>
+            <Class IRI="#Chile"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Australia"/>
+        <ObjectUnionOf>
+            <Class IRI="#Nova_Zelandia"/>
+            <Class IRI="#Tonga"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Brasil"/>
+        <ObjectUnionOf>
+            <Class IRI="#Argentina"/>
+            <Class IRI="#Chile"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Canada"/>
+        <ObjectUnionOf>
+            <Class IRI="#Estados_Unidos"/>
+            <Class IRI="#Mexico"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Chile"/>
+        <ObjectUnionOf>
+            <Class IRI="#Argentina"/>
+            <Class IRI="#Brasil"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#China"/>
+        <ObjectUnionOf>
+            <Class IRI="#Japao"/>
+            <Class IRI="#Mongolia"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Estados_Unidos"/>
+        <ObjectUnionOf>
+            <Class IRI="#Canada"/>
+            <Class IRI="#Mexico"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#França"/>
+        <ObjectUnionOf>
+            <Class IRI="#Alemanha"/>
+            <Class IRI="#Itália"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Itália"/>
+        <ObjectUnionOf>
+            <Class IRI="#Alemanha"/>
+            <Class IRI="#França"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Japao"/>
+        <ObjectUnionOf>
+            <Class IRI="#China"/>
+            <Class IRI="#Mongolia"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mexico"/>
+        <ObjectUnionOf>
+            <Class IRI="#Canada"/>
+            <Class IRI="#Estados_Unidos"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Mongolia"/>
+        <ObjectUnionOf>
+            <Class IRI="#China"/>
+            <Class IRI="#Japao"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nigeria"/>
+        <ObjectUnionOf>
+            <Class IRI="#Africa_do_Sul"/>
+            <Class IRI="#Argelia"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Nova_Zelandia"/>
+        <ObjectUnionOf>
+            <Class IRI="#Australia"/>
+            <Class IRI="#Tonga"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Tonga"/>
+        <ObjectUnionOf>
+            <Class IRI="#Australia"/>
+            <Class IRI="#Nova_Zelandia"/>
+        </ObjectUnionOf>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Africa"/>
+        <NamedIndividual IRI="#Africa_do_Sul"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europa"/>
+        <NamedIndividual IRI="#Alemanha"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Africa"/>
+        <NamedIndividual IRI="#Argelia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#America_do_Sul"/>
+        <NamedIndividual IRI="#Argentina"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oceania"/>
+        <NamedIndividual IRI="#Australia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#America_do_Sul"/>
+        <NamedIndividual IRI="#Brasil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#America_do_Norte"/>
+        <NamedIndividual IRI="#Canada"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#America_do_Sul"/>
+        <NamedIndividual IRI="#Chile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asia"/>
+        <NamedIndividual IRI="#China"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#America_do_Norte"/>
+        <NamedIndividual IRI="#Estados_Unidos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europa"/>
+        <NamedIndividual IRI="#França"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Europa"/>
+        <NamedIndividual IRI="#Itália"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asia"/>
+        <NamedIndividual IRI="#Japao"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#America_do_Norte"/>
+        <NamedIndividual IRI="#Mexico"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Asia"/>
+        <NamedIndividual IRI="#Mongolia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Africa"/>
+        <NamedIndividual IRI="#Nigeria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oceania"/>
+        <NamedIndividual IRI="#Nova_Zelandia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Oceania"/>
+        <NamedIndividual IRI="#Tonga"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#PertenceA"/>
+        <ObjectProperty IRI="#temPais"/>
+    </SubObjectPropertyOf>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#temPais"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#PertenceA"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PertenceA"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Continentes"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temPais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#PertenceA"/>
+            <Class IRI="#Paises"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
