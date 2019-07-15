@@ -1,0 +1,877 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-18"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-18">
+    <Prefix name="" IRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-18#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Judo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aquaticos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialPeso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LançamentoDeDisco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialTabuleiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MuayThai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TenisDeMesa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipeQuinteto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mesa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ArremessoDePeso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Maratona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natação"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esportes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialArma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EsportesEquipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tenis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SaltoComVara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PoloAquatico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xadrez"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SaltoAltura"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Materiais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quadra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LançamentoDeDardo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jiu-Jitsu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esgrima"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipeDupla"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pista"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SaltoDistancia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boxe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Karate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handebol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipeGrupo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialPeteca"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Campo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basquete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Lutas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CorridaComObstaculos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Badminton"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ComInteraçao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CorridaComRevezamento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MarchaAtletica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialDisco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rugby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialBicicleta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialDardo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ComMaterial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Voleibol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialRaquete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EquipeSolo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialVara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Futebol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciclismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MaterialBola"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#SemInteraçao"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#EsportesEquipes"/>
+        <ObjectUnionOf>
+            <Class IRI="#EquipeDupla"/>
+            <Class IRI="#EquipeGrupo"/>
+            <Class IRI="#EquipeQuinteto"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectUnionOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Aquaticos"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArremessoDePeso"/>
+        <Class IRI="#Campo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArremessoDePeso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialPeso"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ArremessoDePeso"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <Class IRI="#Quadra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialPeteca"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialRaquete"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basquete"/>
+        <Class IRI="#Quadra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basquete"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeGrupo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basquete"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxe"/>
+        <Class IRI="#Lutas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Campo"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclismo"/>
+        <Class IRI="#Pista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBicicleta"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorridaComObstaculos"/>
+        <Class IRI="#Pista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorridaComObstaculos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorridaComObstaculos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorridaComRevezamento"/>
+        <Class IRI="#Pista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorridaComRevezamento"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CorridaComRevezamento"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeGrupo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EquipeDupla"/>
+        <Class IRI="#EsportesEquipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EquipeGrupo"/>
+        <Class IRI="#EsportesEquipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EquipeQuinteto"/>
+        <Class IRI="#EsportesEquipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#EquipeSolo"/>
+        <Class IRI="#EsportesEquipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esgrima"/>
+        <Class IRI="#Lutas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esgrima"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esgrima"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Futebol"/>
+        <Class IRI="#Campo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Futebol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeGrupo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Futebol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handebol"/>
+        <Class IRI="#Quadra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handebol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeGrupo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handebol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jiu-Jitsu"/>
+        <Class IRI="#Lutas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jiu-Jitsu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jiu-Jitsu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judo"/>
+        <Class IRI="#Lutas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Karate"/>
+        <Class IRI="#Lutas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Karate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Karate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LançamentoDeDardo"/>
+        <Class IRI="#Campo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LançamentoDeDardo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialDardo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LançamentoDeDardo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LançamentoDeDisco"/>
+        <Class IRI="#Campo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LançamentoDeDisco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialDisco"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LançamentoDeDisco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lutas"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maratona"/>
+        <Class IRI="#Pista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maratona"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Maratona"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarchaAtletica"/>
+        <Class IRI="#Pista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarchaAtletica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MarchaAtletica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialArma"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialBicicleta"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialBola"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialDardo"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialDisco"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialPeso"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialPeteca"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialRaquete"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialTabuleiro"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MaterialVara"/>
+        <Class IRI="#Materiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mesa"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuayThai"/>
+        <Class IRI="#Lutas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuayThai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MuayThai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natação"/>
+        <Class IRI="#Aquaticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natação"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natação"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pista"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoloAquatico"/>
+        <Class IRI="#Aquaticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoloAquatico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeGrupo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PoloAquatico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quadra"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <Class IRI="#Campo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeGrupo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rugby"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoAltura"/>
+        <Class IRI="#Pista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoAltura"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoAltura"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoComVara"/>
+        <Class IRI="#Pista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoComVara"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialVara"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoComVara"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoDistancia"/>
+        <Class IRI="#Pista"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoDistancia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <ObjectComplementOf>
+                <Class IRI="#Materiais"/>
+            </ObjectComplementOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SaltoDistancia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#SemInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenis"/>
+        <Class IRI="#Quadra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <ObjectUnionOf>
+                <Class IRI="#EquipeDupla"/>
+                <Class IRI="#EquipeSolo"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialRaquete"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenisDeMesa"/>
+        <Class IRI="#Mesa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenisDeMesa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <ObjectUnionOf>
+                <Class IRI="#EquipeDupla"/>
+                <Class IRI="#EquipeSolo"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenisDeMesa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TenisDeMesa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialRaquete"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voleibol"/>
+        <Class IRI="#Quadra"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voleibol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <ObjectUnionOf>
+                <Class IRI="#EquipeDupla"/>
+                <Class IRI="#EquipeGrupo"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Voleibol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialBola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xadrez"/>
+        <Class IRI="#Mesa"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xadrez"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComInteraçao"/>
+            <Class IRI="#EquipeSolo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xadrez"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#ComMaterial"/>
+            <Class IRI="#MaterialTabuleiro"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Aquaticos"/>
+        <Class IRI="#Campo"/>
+        <Class IRI="#Lutas"/>
+        <Class IRI="#Mesa"/>
+        <Class IRI="#Pista"/>
+        <Class IRI="#Quadra"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#EquipeDupla"/>
+        <Class IRI="#EquipeGrupo"/>
+        <Class IRI="#EquipeQuinteto"/>
+        <Class IRI="#EquipeSolo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MaterialArma"/>
+        <Class IRI="#MaterialBicicleta"/>
+        <Class IRI="#MaterialBola"/>
+        <Class IRI="#MaterialDardo"/>
+        <Class IRI="#MaterialDisco"/>
+        <Class IRI="#MaterialPeso"/>
+        <Class IRI="#MaterialPeteca"/>
+        <Class IRI="#MaterialRaquete"/>
+        <Class IRI="#MaterialTabuleiro"/>
+        <Class IRI="#MaterialVara"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#ComInteraçao"/>
+        <ObjectProperty IRI="#SemInteraçao"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ComInteraçao"/>
+        <Class IRI="#Esportes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#SemInteraçao"/>
+        <Class IRI="#Esportes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#ComInteraçao"/>
+        <Class IRI="#EsportesEquipes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#SemInteraçao"/>
+        <Class IRI="#EsportesEquipes"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
