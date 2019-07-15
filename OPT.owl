@@ -1,0 +1,2947 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-22"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-22">
+    <Prefix name="" IRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-22#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Teotihuacan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ocho_Rios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Queen&apos;s_Hwy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forte_de_Amber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kula_Eco_Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rio_de_Janeiro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Notre-Dame_de_la_Garde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Catedral_de_Colônia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mexico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Korotogo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palacio_Rosado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Waikato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Foz_do_Iguaçu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kalandula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciudad_de_Mexico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#San_Franscisco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiji_Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torre_Eiffel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Salvador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Yamoussoukro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museu_Bob_Marley"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éPaisde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pontos_Turisticos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Turismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ibiza"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piramide_de_Tepanapa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Orlando"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canterbury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torre_da_Liberdade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capitólio_de_Havana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Montevideo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parque_Nacional_Iguazu"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Magic_Kingdom"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marselles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nova_Zelandia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jaipur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Puerto_Iguazu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Piramide_do_Sol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ópera_de_Sidney"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basílica_de_Saint-Sernin_de_Toulouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Asia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America_do_Norte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Austrália"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Muralha_Da_China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#França"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cidade_do_Cabo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Wyannie_Malone_Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America_do_Sul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Buenos_Aires"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Perth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Eivissa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rosario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Abidjã"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Costa_do_Marfim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Berlim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Punta_del_Este"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Grand-Bassam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cologne"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Barcelona"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temPontoTuristico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Aoraki/Mount_Cook_National_Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#South_Island"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Forte_Vermelho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pequim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nova_Delhi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basílica_de_Nossa_Senhora_da_Paz_de_Yamoussoukro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temCidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luanda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parque_Nacional_do_Iona"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toronto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#New_York"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Portão_de_Brandemburgo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Musée_national_du_costume_de_Grand-Bassam"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kingston"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mausoléu_Guevara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museu_Nacional_de_Antropologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#St._Paul&apos;s_Cathedral"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Colonial_Architecture_Museum"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cataratas_do_Niagara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monumento_Nacional_a_la_Bandera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kiyomizu-dera"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Madri"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parque_Nacional_Kakadu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bahamas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Teatro_Solis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Castillos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#America_Central"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paradise_Island"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Schwangau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fortaleza_de_Santa_Teresa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Continentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dolphin_Cove"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Universal_Studios_Japan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cuba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Parque_Nacional_Abel_Tasman"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oceania"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éCidadeDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Espanha"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éPontoTuristicode"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Brasil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Exercito_de_Terracota"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Museu_do_Apartheid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Alemanha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sun_City"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Santiago_Bernabeu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Torre_CN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paris"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estados_Unidos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Paises"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mano_de_Punta_del_Este"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quioto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nassau"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Igreja_Nosso_Senhor_do_Bonfim"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rustemburgo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cavernas_de_Waitomo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Santa_Clara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trinidad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atlantis_Paradise_Island"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Palacio_de_Bellas_Artes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Europa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Montanha_da_Mesa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Havana"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Doctor&apos;s_Cave_Beach_Club"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Montego_Bay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Africa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Angola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Templo_Expiatório_da_Sagrada_Família"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toquio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Johannesburgo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Uruguai"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Taj_Mahal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cidades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Huairou"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Castelo_de_Neuschwanstein"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Japão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sri_Siva_Subramaniya_temple"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Africa_do_Sul"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kings_Park"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tokyo_Skytree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Xian"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Suva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Osaka"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cristo_Redentor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cholula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toulouse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Argentina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kakadu_Hwy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Niagara"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Golden_Gate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vancouver_Aquarium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_Conservação,_Zoológico_e_Jardins_de_Ardastra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sidney"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cidade_Proibida"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fiji"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vancouver"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quedas_de_Kalandula"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Namibe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#China"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Jamaica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cataratas_do_Iguaçu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nadi"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Abidjã"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abidjã"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#St._Paul&apos;s_Cathedral"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Abidjã"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Costa_do_Marfim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Africa_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Angola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Costa_do_Marfim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa_do_Sul"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Cidade_do_Cabo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Johannesburgo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Rustemburgo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Africa_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#Africa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agra"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Agra"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#India"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alemanha"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alemanha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Berlim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alemanha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Cologne"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Alemanha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Schwangau"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_Central"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_Central"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Bahamas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_Central"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Cuba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_Central"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Jamaica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Norte"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Norte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Canada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Norte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Estados_Unidos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Norte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Mexico"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Sul"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Argentina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Brasil"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#America_do_Sul"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Uruguai"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angola"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angola"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Kalandula"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angola"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Luanda"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angola"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Namibe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Angola"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#Africa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Buenos_Aires"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Puerto_Iguazu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Rosario"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Argentina"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#China"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#India"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Asia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Japão"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atlantis_Paradise_Island"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atlantis_Paradise_Island"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Paradise_Island"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Austrália"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bahamas"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bahamas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Nassau"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bahamas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Paradise_Island"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bahamas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Queen&apos;s_Hwy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bahamas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_Central"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barcelona"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Barcelona"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Espanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basílica_de_Nossa_Senhora_da_Paz_de_Yamoussoukro"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basílica_de_Nossa_Senhora_da_Paz_de_Yamoussoukro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Yamoussoukro"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basílica_de_Saint-Sernin_de_Toulouse"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basílica_de_Saint-Sernin_de_Toulouse"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Toulouse"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berlim"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berlim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Alemanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Foz_do_Iguaçu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Rio_de_Janeiro"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Salvador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Brasil"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buenos_Aires"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buenos_Aires"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Palacio_Rosado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Buenos_Aires"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Argentina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Niagara"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Toronto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Vancouver"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canada"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_do_Norte"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canterbury"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitólio_de_Havana"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capitólio_de_Havana"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Havana"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castelo_de_Neuschwanstein"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castelo_de_Neuschwanstein"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Schwangau"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castillos"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castillos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Fortaleza_de_Santa_Teresa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Castillos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Uruguai"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cataratas_do_Iguaçu"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cataratas_do_Iguaçu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Foz_do_Iguaçu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cataratas_do_Niagara"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cataratas_do_Niagara"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Niagara"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catedral_de_Colônia"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Catedral_de_Colônia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Cologne"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cavernas_de_Waitomo"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cavernas_de_Waitomo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Waikato"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Huairou"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Pequim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#China"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Xian"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholula"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholula"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Piramide_de_Tepanapa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cholula"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Mexico"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cidade_Proibida"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cidade_Proibida"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Pequim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cidade_do_Cabo"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cidade_do_Cabo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Montanha_da_Mesa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cidade_do_Cabo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Africa_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cidades"/>
+        <Class IRI="#Turismo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciudad_de_Mexico"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciudad_de_Mexico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Palacio_de_Bellas_Artes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciudad_de_Mexico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Mexico"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cologne"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cologne"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Catedral_de_Colônia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cologne"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Alemanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colonial_Architecture_Museum"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Colonial_Architecture_Museum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Trinidad"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Continentes"/>
+        <Class IRI="#Turismo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Costa_do_Marfim"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Costa_do_Marfim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Abidjã"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Costa_do_Marfim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Grand-Bassam"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Costa_do_Marfim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Yamoussoukro"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Costa_do_Marfim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#Africa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cristo_Redentor"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cristo_Redentor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Rio_de_Janeiro"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuba"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Havana"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Santa_Clara"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Trinidad"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cuba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_Central"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolphin_Cove"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dolphin_Cove"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Ocho_Rios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eivissa"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Eivissa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Espanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espanha"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Espanha"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#Europa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estados_Unidos"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estados_Unidos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#New_York"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estados_Unidos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Orlando"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estados_Unidos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#San_Franscisco"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Estados_Unidos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_do_Norte"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Alemanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Espanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Europa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#França"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exercito_de_Terracota"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Exercito_de_Terracota"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Xian"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiji"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiji_Museum"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fiji_Museum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Suva"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fortaleza_de_Santa_Teresa"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fortaleza_de_Santa_Teresa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Castillos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forte_Vermelho"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forte_Vermelho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Nova_Delhi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forte_de_Amber"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Forte_de_Amber"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Jaipur"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foz_do_Iguaçu"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foz_do_Iguaçu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Cataratas_do_Iguaçu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Foz_do_Iguaçu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Brasil"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#França"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#França"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Marselles"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#França"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Paris"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#França"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Toulouse"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golden_Gate"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golden_Gate"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#San_Franscisco"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grand-Bassam"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grand-Bassam"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Musée_national_du_costume_de_Grand-Bassam"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grand-Bassam"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Costa_do_Marfim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Havana"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Havana"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Capitólio_de_Havana"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Havana"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Cuba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huairou"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huairou"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Muralha_Da_China"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Huairou"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#China"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ibiza"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ibiza"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Eivissa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Igreja_Nosso_Senhor_do_Bonfim"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Igreja_Nosso_Senhor_do_Bonfim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Salvador"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#India"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#India"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Agra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#India"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Jaipur"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#India"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Nova_Delhi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jaipur"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jaipur"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#India"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jamaica"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jamaica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Kingston"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jamaica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Montego_Bay"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jamaica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Ocho_Rios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Jamaica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_Central"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japão"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japão"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Osaka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japão"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Quioto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Japão"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Toquio"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Johannesburgo"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Johannesburgo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Museu_do_Apartheid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Johannesburgo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Africa_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kakadu_Hwy"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kakadu_Hwy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Austrália"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kalandula"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kalandula"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Quedas_de_Kalandula"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kalandula"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Angola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kings_Park"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kings_Park"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Perth"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kingston"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kingston"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Museu_Bob_Marley"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kingston"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Jamaica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kiyomizu-dera"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kiyomizu-dera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Quioto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Korotogo"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Korotogo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Fiji"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kula_Eco_Park"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kula_Eco_Park"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Korotogo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luanda"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luanda"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Museu_Nacional_de_Antropologia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Luanda"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Angola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Madri"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Madri"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Espanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magic_Kingdom"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Magic_Kingdom"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Orlando"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mano_de_Punta_del_Este"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mano_de_Punta_del_Este"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Punta_del_Este"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marselles"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marselles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Notre-Dame_de_la_Garde"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marselles"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#França"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mausoléu_Guevara"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mausoléu_Guevara"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Santa_Clara"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Cholula"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Ciudad_de_Mexico"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Teotihuacan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mexico"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_do_Norte"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montanha_da_Mesa"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montanha_da_Mesa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Cidade_do_Cabo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montego_Bay"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montego_Bay"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Doctor&apos;s_Cave_Beach_Club"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montego_Bay"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Jamaica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montevideo"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montevideo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Teatro_Solis"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Montevideo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Uruguai"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monumento_Nacional_a_la_Bandera"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monumento_Nacional_a_la_Bandera"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Rosario"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muralha_Da_China"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museu_Bob_Marley"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museu_Bob_Marley"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Kingston"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museu_Nacional_de_Antropologia"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museu_Nacional_de_Antropologia"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Luanda"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museu_do_Apartheid"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Museu_do_Apartheid"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Johannesburgo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musée_national_du_costume_de_Grand-Bassam"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musée_national_du_costume_de_Grand-Bassam"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Grand-Bassam"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nadi"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nadi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Fiji"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Namibe"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Namibe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Parque_Nacional_do_Iona"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Namibe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Angola"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nassau"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nassau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Centro_de_Conservação,_Zoológico_e_Jardins_de_Ardastra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nassau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Bahamas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#New_York"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#New_York"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Torre_da_Liberdade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#New_York"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Estados_Unidos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Niagara"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Niagara"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Cataratas_do_Niagara"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Niagara"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Canada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notre-Dame_de_la_Garde"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Notre-Dame_de_la_Garde"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Marselles"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nova_Delhi"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nova_Delhi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Forte_Vermelho"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nova_Delhi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#India"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nova_Zelandia"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <Class IRI="#Continentes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Austrália"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Fiji"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oceania"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPais"/>
+            <Class IRI="#Nova_Zelandia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocho_Rios"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocho_Rios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Dolphin_Cove"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ocho_Rios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Jamaica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orlando"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orlando"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Magic_Kingdom"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Orlando"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Estados_Unidos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Osaka"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Osaka"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Universal_Studios_Japan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paises"/>
+        <Class IRI="#Turismo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palacio_Rosado"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palacio_Rosado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Buenos_Aires"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palacio_de_Bellas_Artes"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Palacio_de_Bellas_Artes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Ciudad_de_Mexico"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paradise_Island"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paradise_Island"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Atlantis_Paradise_Island"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paradise_Island"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Bahamas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Paris"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_Nacional_Abel_Tasman"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_Nacional_Abel_Tasman"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#South_Island"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_Nacional_Iguazu"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_Nacional_Iguazu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Puerto_Iguazu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_Nacional_Kakadu"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_Nacional_Kakadu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Kakadu_Hwy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_Nacional_do_Iona"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Parque_Nacional_do_Iona"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Namibe"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pequim"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pequim"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Cidade_Proibida"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perth"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Perth"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Austrália"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piramide_de_Tepanapa"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piramide_de_Tepanapa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Cholula"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piramide_do_Sol"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Piramide_do_Sol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Teotihuacan"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portão_de_Brandemburgo"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Portão_de_Brandemburgo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Berlim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puerto_Iguazu"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puerto_Iguazu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Parque_Nacional_Iguazu"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Puerto_Iguazu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Argentina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punta_del_Este"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punta_del_Este"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Mano_de_Punta_del_Este"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Punta_del_Este"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Uruguai"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quedas_de_Kalandula"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quedas_de_Kalandula"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Kalandula"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quioto"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rio_de_Janeiro"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rio_de_Janeiro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Cristo_Redentor"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rio_de_Janeiro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Brasil"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosario"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosario"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Monumento_Nacional_a_la_Bandera"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rosario"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Argentina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rustemburgo"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rustemburgo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Sun_City"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rustemburgo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Africa_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salvador"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salvador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Igreja_Nosso_Senhor_do_Bonfim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Salvador"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Brasil"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#San_Franscisco"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#San_Franscisco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Golden_Gate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#San_Franscisco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Estados_Unidos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santa_Clara"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santa_Clara"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Mausoléu_Guevara"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santa_Clara"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Cuba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santiago_Bernabeu"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Santiago_Bernabeu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Madri"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schwangau"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Schwangau"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Alemanha"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sidney"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sidney"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Austrália"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#South_Island"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#South_Island"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Nova_Zelandia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sri_Siva_Subramaniya_temple"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sri_Siva_Subramaniya_temple"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Nadi"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sun_City"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sun_City"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Rustemburgo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suva"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Suva"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Fiji"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taj_Mahal"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Taj_Mahal"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Agra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teatro_Solis"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teatro_Solis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Montevideo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Templo_Expiatório_da_Sagrada_Família"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Templo_Expiatório_da_Sagrada_Família"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Barcelona"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teotihuacan"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teotihuacan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Piramide_do_Sol"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Teotihuacan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Mexico"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tokyo_Skytree"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tokyo_Skytree"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Toquio"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toquio"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toquio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Tokyo_Skytree"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toronto"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toronto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Torre_CN"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toronto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Canada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torre_CN"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torre_CN"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Toronto"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torre_Eiffel"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torre_da_Liberdade"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Torre_da_Liberdade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#New_York"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toulouse"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toulouse"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Basílica_de_Saint-Sernin_de_Toulouse"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toulouse"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#França"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trinidad"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trinidad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Colonial_Architecture_Museum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trinidad"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Cuba"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Universal_Studios_Japan"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Universal_Studios_Japan"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Osaka"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uruguai"/>
+        <Class IRI="#Paises"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uruguai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Castillos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uruguai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Montevideo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uruguai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCidade"/>
+            <Class IRI="#Punta_del_Este"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Uruguai"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPaisde"/>
+            <Class IRI="#America_do_Sul"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vancouver"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vancouver"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Vancouver_Aquarium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vancouver"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Canada"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vancouver_Aquarium"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vancouver_Aquarium"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Vancouver"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waikato"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Waikato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Nova_Zelandia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wyannie_Malone_Museum"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Wyannie_Malone_Museum"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Queen&apos;s_Hwy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xian"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Xian"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#China"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yamoussoukro"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yamoussoukro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Basílica_de_Nossa_Senhora_da_Paz_de_Yamoussoukro"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yamoussoukro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Costa_do_Marfim"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ópera_de_Sidney"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ópera_de_Sidney"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Sidney"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aoraki/Mount_Cook_National_Park"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Aoraki/Mount_Cook_National_Park"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Canterbury"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_Conservação,_Zoológico_e_Jardins_de_Ardastra"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_Conservação,_Zoológico_e_Jardins_de_Ardastra"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Nassau"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor&apos;s_Cave_Beach_Club"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Doctor&apos;s_Cave_Beach_Club"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Montego_Bay"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Queen&apos;s_Hwy"/>
+        <Class IRI="#Cidades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Queen&apos;s_Hwy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temPontoTuristico"/>
+            <Class IRI="#Wyannie_Malone_Museum"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Queen&apos;s_Hwy"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éCidadeDe"/>
+            <Class IRI="#Bahamas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#St._Paul&apos;s_Cathedral"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#St._Paul&apos;s_Cathedral"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPontoTuristicode"/>
+            <Class IRI="#Abidjã"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Africa"/>
+        <Class IRI="#America_Central"/>
+        <Class IRI="#America_do_Norte"/>
+        <Class IRI="#America_do_Sul"/>
+        <Class IRI="#Asia"/>
+        <Class IRI="#Europa"/>
+        <Class IRI="#Oceania"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Cidades"/>
+        <Class IRI="#Continentes"/>
+        <Class IRI="#Paises"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temCidade"/>
+        <ObjectProperty IRI="#éCidadeDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temPais"/>
+        <ObjectProperty IRI="#éPaisde"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#temPontoTuristico"/>
+        <ObjectProperty IRI="#éPontoTuristicode"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temCidade"/>
+        <Class IRI="#Paises"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temPais"/>
+        <Class IRI="#Continentes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temPontoTuristico"/>
+        <Class IRI="#Cidades"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éCidadeDe"/>
+        <Class IRI="#Cidades"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éPaisde"/>
+        <Class IRI="#Paises"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éPontoTuristicode"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temCidade"/>
+        <Class IRI="#Cidades"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temPais"/>
+        <Class IRI="#Paises"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temPontoTuristico"/>
+        <Class IRI="#Pontos_Turisticos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éCidadeDe"/>
+        <Class IRI="#Paises"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éPaisde"/>
+        <Class IRI="#Continentes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éPontoTuristicode"/>
+        <Class IRI="#Cidades"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
