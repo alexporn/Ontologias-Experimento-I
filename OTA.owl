@@ -1,0 +1,1046 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-14">
+    <Prefix name="" IRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-14#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#temEncefaloComGrandesHemisferios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rinoceronte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temCranioPequeno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#éViviparo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temMama"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#focinhoAlongado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mamiferos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temEncefaloComGrandesHemisferios"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temGestacaoLonga"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cavalo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temCauda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ornitorrinco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Placentarios"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#botaOvo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canguru"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temMama"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bicho_Preguica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemDentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Leão"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Zebra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Peixe-boi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cachorro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Golfinho"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#outraCaracteristica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BotaOvo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temCranioPequeno"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temEspinhos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Marsupiais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Macaco"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éViviparo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#semDentes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coelho"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coala"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Équidna"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tamanduá"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Girafa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TemBolsa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temCauda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outraCaracteristica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#focinhoAlongado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temGestacaoLonga"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temEspinhos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tigre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tilacino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gorila"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temBolsa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Características"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Morcego"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tatu"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gambá"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Monotremados"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Bicho_Preguica"/>
+        <Class IRI="#Marsupiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bicho_Preguica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temBolsa"/>
+            <Class IRI="#Bicho_Preguica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bicho_Preguica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCranioPequeno"/>
+            <Class IRI="#Bicho_Preguica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BotaOvo"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BotaOvo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#botaOvo"/>
+            <Class IRI="#BotaOvo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cachorro"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cachorro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cachorro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cachorro"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canguru"/>
+        <Class IRI="#Marsupiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canguru"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#TemBolsa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canguru"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temCranioPequeno"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cavalo"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cavalo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cavalo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cavalo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coala"/>
+        <Class IRI="#Marsupiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coala"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#TemBolsa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coala"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temCranioPequeno"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coelho"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coelho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coelho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gambá"/>
+        <Class IRI="#Marsupiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gambá"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#TemBolsa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gambá"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temCranioPequeno"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gato"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girafa"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girafa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girafa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Girafa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golfinho"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golfinho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golfinho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golfinho"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gorila"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gorila"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gorila"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gorila"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humano"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humano"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humano"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humano"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leão"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leão"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leão"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Leão"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macaco"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macaco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macaco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Macaco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marsupiais"/>
+        <Class IRI="#Mamiferos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marsupiais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#TemBolsa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Marsupiais"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temCranioPequeno"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monotremados"/>
+        <Class IRI="#Mamiferos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monotremados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#BotaOvo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monotremados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#SemDentes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monotremados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#focinhoAlongado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Monotremados"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEspinhos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morcego"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morcego"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morcego"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Morcego"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ornitorrinco"/>
+        <Class IRI="#Monotremados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ornitorrinco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#BotaOvo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ornitorrinco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#SemDentes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ornitorrinco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#focinhoAlongado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peixe-boi"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peixe-boi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peixe-boi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peixe-boi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Placentarios"/>
+        <Class IRI="#Mamiferos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Placentarios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Placentarios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Placentarios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rato"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rato"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rinoceronte"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rinoceronte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rinoceronte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rinoceronte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemDentes"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemDentes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#semDentes"/>
+            <Class IRI="#SemDentes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tamanduá"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tamanduá"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tamanduá"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tamanduá"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tatu"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tatu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tatu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tatu"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemBolsa"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TemBolsa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temBolsa"/>
+            <Class IRI="#TemBolsa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tigre"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tigre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tigre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tigre"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tilacino"/>
+        <Class IRI="#Marsupiais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tilacino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#TemBolsa"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tilacino"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temCranioPequeno"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zebra"/>
+        <Class IRI="#Placentarios"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zebra"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zebra"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temEspinhos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zebra"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Zebra"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#focinhoAlongado"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#focinhoAlongado"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#focinhoAlongado"/>
+            <Class IRI="#focinhoAlongado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outraCaracteristica"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outraCaracteristica"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#outraCaracteristica"/>
+            <Class IRI="#outraCaracteristica"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temCauda"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temCauda"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCauda"/>
+            <Class IRI="#temCauda"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temCranioPequeno"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temCranioPequeno"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCranioPequeno"/>
+            <Class IRI="#temCranioPequeno"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temEncefaloComGrandesHemisferios"/>
+            <Class IRI="#temEncefaloComGrandesHemisferios"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temEspinhos"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temEspinhos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temEspinhos"/>
+            <Class IRI="#temEspinhos"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temGestacaoLonga"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temGestacaoLonga"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temGestacaoLonga"/>
+            <Class IRI="#temGestacaoLonga"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temMama"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temMama"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temMama"/>
+            <Class IRI="#temMama"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Équidna"/>
+        <Class IRI="#Monotremados"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Équidna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#BotaOvo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Équidna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#SemDentes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Équidna"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temCaracteristica"/>
+            <Class IRI="#focinhoAlongado"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#éViviparo"/>
+        <Class IRI="#Características"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#éViviparo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éViviparo"/>
+            <Class IRI="#éViviparo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Marsupiais"/>
+        <Class IRI="#Monotremados"/>
+        <Class IRI="#Placentarios"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#botaOvo"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#focinhoAlongado"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#outraCaracteristica"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#semDentes"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temBolsa"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temCauda"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temCranioPequeno"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temEncefaloComGrandesHemisferios"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temEspinhos"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temGestacaoLonga"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éViviparo"/>
+        <ObjectProperty IRI="#temCaracteristica"/>
+    </SubObjectPropertyOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Marsupiais</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Grudado na mãe até ficar adulto, tipo canguru</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Monotremados</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Bota ovo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Placentarios</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Ficam por muito tempo no utero</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
