@@ -1,0 +1,665 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-19"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-19">
+    <Prefix name="" IRI="http://www.semanticweb.org/alunos/ontologies/2017/10/untitled-ontology-19"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Volêi"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Handebol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#QuantidadeDeJogadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Judo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temEsporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quantidade_de_jogadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1_jogadores"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eJogador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ringue"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temLocal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tiro_com_arco"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eEsporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esportes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Basquete"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Badminton"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esportes_Individuais"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natação"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#LocalDoEsporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Areia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tenis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esportes_Coletivos"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eLocal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Canoagem_Velocidade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vela"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quadra"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#5_á_11_jogadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Agua"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Surfe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temJogador"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2_á_5_jogadores"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hipismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Esgrima"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Propriedades"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Golfe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LocalDoEsporte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Atletismo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Futebol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Boxe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ciclismo"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Agua"/>
+        <Class IRI="#LocalDoEsporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Areia"/>
+        <Class IRI="#LocalDoEsporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atletismo"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atletismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Atletismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Quadra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#2_á_5_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Badminton"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Quadra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basquete"/>
+        <Class IRI="#Esportes_Coletivos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basquete"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#2_á_5_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Basquete"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Quadra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxe"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Boxe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Ringue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canoagem_Velocidade"/>
+        <Class IRI="#Esportes_Coletivos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canoagem_Velocidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#2_á_5_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Canoagem_Velocidade"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Agua"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclismo"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ciclismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Quadra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esgrima"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esgrima"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esgrima"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Quadra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esportes_Coletivos"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esportes_Coletivos"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#eEsporte"/>
+            <Class IRI="#Propriedades"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Esportes_Individuais"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Futebol"/>
+        <Class IRI="#Esportes_Coletivos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Futebol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#5_á_11_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Futebol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Areia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golfe"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golfe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Golfe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Areia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handebol"/>
+        <Class IRI="#Esportes_Coletivos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handebol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#5_á_11_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Handebol"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Quadra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hipismo"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hipismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hipismo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Areia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judo"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Judo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Ringue"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LocalDoEsporte"/>
+        <Class IRI="#Propriedades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natação"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natação"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natação"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Agua"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Propriedades"/>
+        <Class IRI="#Esportes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quadra"/>
+        <Class IRI="#LocalDoEsporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quantidade_de_jogadores"/>
+        <Class IRI="#Propriedades"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ringue"/>
+        <Class IRI="#LocalDoEsporte"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surfe"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surfe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Surfe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Agua"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenis"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#2_á_5_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tenis"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Quadra"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiro_com_arco"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiro_com_arco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#1_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tiro_com_arco"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Areia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vela"/>
+        <Class IRI="#Esportes_Coletivos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vela"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#2_á_5_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vela"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Agua"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volêi"/>
+        <Class IRI="#Esportes_Coletivos"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volêi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temJogador"/>
+            <Class IRI="#2_á_5_jogadores"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Volêi"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#temLocal"/>
+            <Class IRI="#Areia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1_jogadores"/>
+        <Class IRI="#Quantidade_de_jogadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2_á_5_jogadores"/>
+        <Class IRI="#Quantidade_de_jogadores"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#5_á_11_jogadores"/>
+        <Class IRI="#Quantidade_de_jogadores"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Agua"/>
+        <Class IRI="#Areia"/>
+        <Class IRI="#Quadra"/>
+        <Class IRI="#Ringue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Atletismo"/>
+        <Class IRI="#Badminton"/>
+        <Class IRI="#Boxe"/>
+        <Class IRI="#Ciclismo"/>
+        <Class IRI="#Esgrima"/>
+        <Class IRI="#Golfe"/>
+        <Class IRI="#Hipismo"/>
+        <Class IRI="#Judo"/>
+        <Class IRI="#Natação"/>
+        <Class IRI="#Surfe"/>
+        <Class IRI="#Tenis"/>
+        <Class IRI="#Tiro_com_arco"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Basquete"/>
+        <Class IRI="#Canoagem_Velocidade"/>
+        <Class IRI="#Futebol"/>
+        <Class IRI="#Handebol"/>
+        <Class IRI="#Vela"/>
+        <Class IRI="#Volêi"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Esportes_Coletivos"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#1_jogadores"/>
+        <Class IRI="#2_á_5_jogadores"/>
+        <Class IRI="#5_á_11_jogadores"/>
+    </DisjointClasses>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#eEsporte"/>
+        <ObjectProperty IRI="#temEsporte"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#eJogador"/>
+        <ObjectProperty IRI="#temJogador"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#eLocal"/>
+        <ObjectProperty IRI="#temLocal"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eEsporte"/>
+        <Class IRI="#Esportes_Coletivos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eEsporte"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eJogador"/>
+        <Class IRI="#Agua"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eJogador"/>
+        <Class IRI="#Areia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eJogador"/>
+        <Class IRI="#Quadra"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eJogador"/>
+        <Class IRI="#Ringue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eLocal"/>
+        <Class IRI="#Agua"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eLocal"/>
+        <Class IRI="#Areia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eLocal"/>
+        <Class IRI="#Quadra"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#eLocal"/>
+        <Class IRI="#Ringue"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temEsporte"/>
+        <Class IRI="#Esportes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temJogador"/>
+        <Class IRI="#Esportes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temLocal"/>
+        <Class IRI="#Esportes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eEsporte"/>
+        <Class IRI="#Esportes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eJogador"/>
+        <Class IRI="#Esportes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#eLocal"/>
+        <Class IRI="#Esportes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temEsporte"/>
+        <Class IRI="#Esportes_Coletivos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temEsporte"/>
+        <Class IRI="#Esportes_Individuais"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temJogador"/>
+        <Class IRI="#Quantidade_de_jogadores"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temLocal"/>
+        <Class IRI="#Agua"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temLocal"/>
+        <Class IRI="#Areia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temLocal"/>
+        <Class IRI="#Quadra"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temLocal"/>
+        <Class IRI="#Ringue"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#LocalDoEsporte"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#QuantidadeDeJogadores"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
